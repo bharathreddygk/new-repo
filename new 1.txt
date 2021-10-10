@@ -1,0 +1,80 @@
+
+git init
+
+git status
+ 
+git config --global user.name "bharath reddy"
+git config --global user.email "bharathreddykr7@gmail.com"
+
+git config --list
+
+git config --global --unset user.name
+git config --global --unset user.email
+
+git config --global user.name "bharath reddy"
+git config --global user.email "bharathreddykr7@gmail.com"
+------------------------------------
+         CREATE FILE
+
+touch file1
+ls
+git status
+git add file1
+git status
+git commit -m "label" file1
+git status
+git log
+git show cid
+-----------------------
+         CREATE MULTIPLE FILES
+
+touch file2 file3 file4
+ls
+git status
+ 
+git add file2 file3 file4
+or
+git add *
+or
+git add .
+or
+git add -A
+
+git status
+git commit -m "label"
+git log
+git show cid
+---------------------------
+      repository to local
+
+git clone
+https;//github.com/bha
+ls
+cd batch72
+touch devops
+git add devops
+git commit -m "test commit"
+git push
+-----------------------------
+        CREATE DIRECTORY
+
+mkdir dir1
+ls
+cd dir1
+touch f1 f2
+cd ..
+git add .
+(or)
+git add dir/f1
+git commit -m "sample dir"
+git push
+---------------------------
+     REMOVE FILE
+
+rm file3
+or
+rm -rf file3
+git add .
+git commit -m "test commit"
+git push
+-----------------------
