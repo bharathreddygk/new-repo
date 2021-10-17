@@ -3,12 +3,13 @@ this is l
 git push origin (branch name)
 git push (path name)
 
+linux 
 
 git reset head bharathfile1  ( 2 - 1)
 git reset --soft cid ( 3 - 2 )
 git reset --hard cid  ( to delete )
 git reset --mixed cid (3,2 -1 )
-
+git merge --abort (data modi for skip purpose)
  n-1
 
 end of the line
