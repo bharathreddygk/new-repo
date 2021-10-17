@@ -1,0 +1,13 @@
+
+
+
+git reset head bharathfile1  ( 2 - 1)
+git reset --soft cid ( 3 - 2 )
+git reset --hard cid  ( to delete )
+git reset --mixed cid (3,2 -1 )
+
+ n-1
+
+end of the line
+
+how to know changes data in file ( git diff (file name))
