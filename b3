@@ -2,4 +2,10 @@ git log --after =yy-mm-dd
 git log --before =yy-mm-dd
 or 
 git log --since =yy-mm-dd
-git log --until=yy-mm-dd[D[D[D[D[D[D[D[D[D [C[C[C[C[C[C[C[C
+git log --until=yy-mm-dd
+
+
+git log --since =yy-mm-dd --until=yy-mm-dd
+git log (file name)
+
+git log --grep=msg
