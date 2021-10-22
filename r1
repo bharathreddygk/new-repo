@@ -1,5 +1,7 @@
  
 
+git stash show -p stash@{0}
+
 git branch -d (branch name)
 
 git branch -a ( to list all branches like central and local repository)
