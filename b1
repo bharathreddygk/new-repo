@@ -11,7 +11,7 @@ git reset --hard cid  ( to delete )
 git reset --mixed cid (3,2 -1 )
 git merge --abort (data modi for skip purpose)
  n-1
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
 end of the line
-kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+
 how to know changes data in file ( git diff (file name))
